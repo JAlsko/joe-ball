@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Breaker!!</title>
+    <style>
+      canvas { background: #eee; }
+    </style>
+  
+  </head>
+  <body>
+  <div style="max-width:1200px;margin:auto;">
+
+    <canvas id="myCanvas" width="1200" height="800" style="position:relative;"></canvas>
+
+    <div>
+    <button onclick="goBack()">GO BACK</button>
+    <button onclick="cheatMode()">CHEAT MODE</button>
+    <button onclick="hardMode()">HARD MODE</button>
+    <input id="name-input"></input>
+    <button onclick="setSaveName()">SAVE NAME</button>
+    <button onclick="clearSave()">CLEAR SAVE</button>
+    <span style="color:grey">Hit 'SPACE' to pause</span>
+    </div>
+  </div>
+
+    <script src="breaker.js"></script>
+    <script>
+      function goBack() {
+        window.location = 'index.html';
+      }
+    </script>
+  </body>
+</html>
